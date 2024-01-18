@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "15016219563",
+    "project_id": "sharedbilltipcalculator",
+    "storage_bucket": "sharedbilltipcalculator.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:15016219563:android:58a6d18f9152838ba7b8ee",
+        "android_client_info": {
+          "package_name": "com.example.sharedbilltipcalculator"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBAciHplpQuQrkbEntunFLu7sWuWvILxJ4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

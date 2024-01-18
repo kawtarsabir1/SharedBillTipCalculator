@@ -1,0 +1,10 @@
+<!-- res/values/styles.xml -->
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight"/>
+<!--    <style name="AppThemee" parent="Theme.MaterialComponents.DayNight"/>-->
+    <string name="underlined_text"><u>Sign Up</u></string>
+    <string name="underlined_text1"><u>Log In</u></string>
+
+
+</resources>

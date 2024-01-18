@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Login"
+    android:layout_margin="50dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:gravity="center"
+        android:layout_marginTop="100dp"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/holo_green_light"
+
+        />
+    <EditText
+        android:id="@+id/newuser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:hint="User Name"
+        android:inputType="text"
+        android:textStyle="normal"
+        android:drawableStart="@drawable/baseline_account_circle_24"
+        android:drawablePadding="16dp"
+        android:drawableTint="@android:color/holo_green_light"
+        />
+    <EditText
+        android:id="@+id/newpw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Password"
+        android:password="true"
+        android:inputType="text"
+        android:textStyle="normal"
+        android:drawableStart="@drawable/baseline_lock_person_24"
+        android:drawablePadding="16dp"
+        android:drawableTint="@android:color/holo_green_light"
+        />
+    <Button
+        android:id="@+id/signeup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Signe up"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="100dp"
+        android:textStyle="bold"
+        android:backgroundTint="@android:color/holo_green_light"
+
+
+        />
+    <TextView
+        android:id="@+id/gotologin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:text="@string/underlined_text1"
+        android:textColor="#0077cc"
+        />
+
+
+
+
+</LinearLayout>
